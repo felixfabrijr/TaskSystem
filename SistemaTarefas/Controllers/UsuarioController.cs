@@ -47,7 +47,7 @@ namespace SistemaTarefas.Controllers
             return Ok(usuarioModel);
         }
 
-        [HttpDelete("{id")]
+        [HttpDelete("{id}")]
 
         public async Task<ActionResult<UsuarioModel>> Apagar(int id)
         {
